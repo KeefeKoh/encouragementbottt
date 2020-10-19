@@ -30,9 +30,9 @@ while True:
 
   elif counter == 1:
     
-      output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember that "+ encouragement_list[0] + "! Hope you feel better :)"  
+      output = "It seems that you are feeling quite down" + feelings_list[0] + ". However, do always remember that "+ encouragement_list[0] + "! Hope you will feel better :)"  
 
-  else:
+        
 
     feelings = ""    
     for i in range(len(feelings_list)-1):
